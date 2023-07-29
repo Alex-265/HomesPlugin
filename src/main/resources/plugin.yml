@@ -1,0 +1,12 @@
+name: Homes
+version: '${version}'
+main: at.alex.homes.Homes
+api-version: '1.20'
+prefix: "[Homes]"
+commands:
+  sethome:
+    description: sdfj
+  home:
+    description: jfa
+  delhome:
+    description: aifhs
