@@ -1,4 +1,6 @@
+
 # Modern Home Plugin (Alpha)
+![](https://github.com/Alex-265/HomesPlugin/assets/63714415/f658c1d5-4db7-4cba-be76-5f6d42dd8d50)
 
 If you find something you would like or a bug, fork the project and start a pull request or start an Issue
 
