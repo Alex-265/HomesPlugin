@@ -23,7 +23,7 @@ public class Home implements CommandExecutor {
         Player player = (Player) sender;
         if (args.length == 1) {
             String response = fileHandler.GetHomeFromNames(player, args[0]);
-            if (response == "404") {
+            if (response.equals("404")) {
                 sender.sendMessage(ChatColor.RED + "Home not Found!");
                 return true;
             } else {
@@ -35,7 +35,7 @@ public class Home implements CommandExecutor {
             }
         } else if (args.length == 0) {
             String response = fileHandler.GetHomeFromNames(player, "default");
-            if (response == "404") {
+            if (response.equals("404")) {
                 sender.sendMessage(ChatColor.RED + "Default Home not Found!");
                 return true;
             } else {

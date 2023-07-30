@@ -33,6 +33,7 @@ public class FileHandler {
 
     public void RemoveLocation(Player player, String homename) {
         plugin.getConfig().set("Homes." + player.getUniqueId() + "." + homename, null);
+        plugin.saveConfig();
     }
     public List<String> GetHomes(Player player) {
         String playerUUID = player.getUniqueId().toString();

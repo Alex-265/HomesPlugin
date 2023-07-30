@@ -2,11 +2,11 @@ name: Homes
 version: '${version}'
 main: at.alex.homes.Homes
 api-version: '1.20'
-prefix: "[Homes]"
+prefix: "Homes"
 commands:
   sethome:
-    description: sdfj
+    description: Set a Home at your current Position
   home:
-    description: jfa
+    description: Teleport to a home
   delhome:
-    description: aifhs
+    description: Delte a home
