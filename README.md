@@ -7,7 +7,7 @@ If you find something you would like or a bug, fork the project and start a pull
 
 ## WARNING
 
-This Plugin is was made in 2 hours and is still in Alpha!
+This Plugin is in Beta, some Bugs may Occurr, please start an Issue, if you notice unexpected behaviour
 
 ## Download
 [Github](https://github.com/Alex-265/HomesPlugin/releases/tag/Release)
