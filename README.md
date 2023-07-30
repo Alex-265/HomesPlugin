@@ -12,9 +12,9 @@ This Plugin is was made in 2 hours and is still in Alpha!
 ## Download
 [Github](https://github.com/Alex-265/HomesPlugin/releases/tag/Release)
 
-SOON [Modrinth](https://modrinth.com/mod/modernhomes)
+[Modrinth](https://modrinth.com/mod/modernhomes)
 
-SOON [Curseforge DevBukkit](https://legacy.curseforge.com/minecraft/bukkit-plugins/modernhomes)
+[Curseforge DevBukkit](https://legacy.curseforge.com/minecraft/bukkit-plugins/modernhomes)
 
 [SpigotMC](https://www.spigotmc.org/resources/modernhomes.111615/)
 
