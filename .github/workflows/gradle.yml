@@ -28,10 +28,8 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-    - name: Build with Gradle
-      uses: ${{ github.workspace }}/gradlew build
-      with:
-        arguments: build
+    - name: Build Plugin
+      run: ./gradlew build # Ersetze dies mit dem Befehl, um dein Plugin zu bauen
     - name: Download a Build Artifact
       uses: actions/upload-artifact@v2
       with:
