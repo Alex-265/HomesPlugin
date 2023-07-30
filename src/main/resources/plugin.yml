@@ -10,3 +10,6 @@ commands:
     description: Teleport to a home
   delhome:
     description: Delte a home
+  admindelhome:
+    description: Let Admins delete a home
+    permission: modernhomes.admin.deleteotherhomes
