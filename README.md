@@ -1,5 +1,7 @@
 
-# Modern Home Plugin (Alpha) ![Building](https://github.com/Alex-265/HomesPlugin/actions/workflows/gradle.yml/badge.svg) ![GitHub all releases](https://img.shields.io/github/downloads/Alex-265/HomesPlugin/total)
+# Modern Home Plugin (Alpha) ![Building](https://github.com/Alex-265/HomesPlugin/actions/workflows/gradle.yml/badge.svg) ![GitHub all releases](https://img.shields.io/github/downloads/Alex-265/HomesPlugin/total) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Alex-265/HomesPlugin/master) ![GitHub Repo stars](https://img.shields.io/github/stars/Alex-265/HomesPlugin) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+
 
 ![](https://github.com/Alex-265/HomesPlugin/assets/63714415/f658c1d5-4db7-4cba-be76-5f6d42dd8d50)
 
