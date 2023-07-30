@@ -15,6 +15,7 @@
  *     You should have received a copy of the GNU Affero General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses>.
  */
+
 package at.alex.homes.commands;
 
 import at.alex.homes.utils.FileHandler;
@@ -24,22 +25,24 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-public class SetHome implements CommandExecutor {
+import java.util.List;
+
+public class adminListHome implements CommandExecutor {
     FileHandler fileHandler = new FileHandler();
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-        Player player = (Player) sender;
-        if (args.length == 1) {
-            fileHandler.AddHome(args[0], player);
-            sender.sendMessage("Added " + args[0]);
-            return false;
-        } else if (args.length == 0) {
-            fileHandler.AddHome("default", player);
-            sender.sendMessage("Added new default Home");
-            return false;
-        } else {
-            sender.sendMessage("Please provide a Name");
+        if (!sender.hasPermission("modernhomes.admin.listotherhomes")) {
             return true;
+        } else {
+            Player player = (Player) sender;
+            List<String> Homes = fileHandler.GetHomes(player);
+            String homesAsString = String.join(", ", Homes);
+            homesAsString = homesAsString.substring(1, homesAsString.length() - 1);
+
+            sender.sendMessage(player.getName() + " has Homes " + homesAsString);
+
         }
+
+        return false;
     }
 }

@@ -11,5 +11,8 @@ commands:
   delhome:
     description: Delte a home
   admindelhome:
-    description: Let Admins delete a home
+    description: Lets Admins delete a home
     permission: modernhomes.admin.deleteotherhomes
+  adminlisthome:
+    description: Lets Admins list the homes of a Player
+    permission: modernhomes.admin.listotherhomes
