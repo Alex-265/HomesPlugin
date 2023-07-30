@@ -28,6 +28,8 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
+    - name: Give execute permission to gradlew
+      run: chmod u+x ./gradlew # Gib dem Skript die Ausführungsberechtigung
     - name: Build Plugin
       run: ./gradlew build # Ersetze dies mit dem Befehl, um dein Plugin zu bauen
     - name: Download a Build Artifact
